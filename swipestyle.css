@@ -1,0 +1,102 @@
+@charset "UTF-8";
+.website {
+	padding:0;
+	margin:0;
+	}
+a {
+	color: #222;
+	}
+h2.title {
+	font-family: "Ubuntu", sans-serif;
+	font-weight:500;
+	float: left;
+	color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.15em;
+  line-height: 1.75;
+  margin: 0 0 5px 0;
+	}
+center .slides.active{
+	visibility:visible;
+	}
+center {
+	width: 254px;
+	height: 180px;
+	overflow:hidden;
+	}
+center ul {
+	padding:0;
+	margin:0;
+	}
+center img {
+	width: 100%;
+	}
+.timeline{
+	overflow-x:scroll;
+	box-sizing:content-box;
+	height:auto;
+	max-height:420px;
+	width:100%;
+	list-style-type:none;
+	margin:0;
+	}
+	.timeline:focus{
+		outline:none
+		}
+	.timeline .entries .when{
+		color:#808082;
+		display:inline-block
+		}
+	.timeline .entries .when>h3{
+		font-weight:200;
+		font-family: "Ubuntu", sans-serif;
+		font-size:12px;
+		text-transform:uppercase;
+		line-height:1em;
+		margin:15px
+		}
+	.timeline .entries .when>h3.past{
+		text-align:right
+		}
+	.timeline .entry{
+		position:relative;
+		display:block;
+		float:left;
+		width:254px;
+		height:260px;
+		margin:0 16px 40px 0px;
+		border:1px solid #999;
+		}
+	.timeline .entry h3,.timeline .entry h4{
+		padding-top:7px;
+		font-family: "Ubuntu", sans-serif;
+	    text-transform: uppercase;
+        font-size: 14px;
+		font-weight:500;
+		line-height:1.5em;
+		margin:0 9px
+		}
+	.timeline .entry p{
+		margin-left:9px;
+		font-size:14px
+		}
+	.timeline .entry h5{
+		color: #9E9E9E;
+		font-weight:200;
+		line-height: 1.3em;
+        font-family: "Crimson Text",serif;
+        -webkit-font-smoothing: antialiased;
+        overflow: hidden;
+		margin: 0 9px;
+        font-size: 16px;
+		}
+	.timeline .entry h5.tight {
+		color: #222;
+		}
+	.timeline .entry .entry-info{
+		display:block;
+		height:50px
+		}
+
+
